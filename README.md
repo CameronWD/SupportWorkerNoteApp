@@ -1,6 +1,18 @@
-# SupportHero
+# Support Hero
+# Term 3 - Assessment 2 - Full Stack Application (Part A)
+
+## [Github](https://github.com/CameronWD/SupportWorkerNoteApp)
+## [Slidedeck](ppt/T3A2-A-presentation.pdf)
 
 ![SupportHeroLogo](docs/SupportHeroLogo.png)
+
+## Table of Contents
+- [R1 - Description of website](#r1-description-of-your-website)
+- [R2 - Dataflow Diagram](#r2-dataflow-diagram)
+- [R3 - Application Architecture Diagram](#r3-application-architecture-diagram)
+- [R4 - User Stories](#r4-user-stories)
+- [R5 - Wireframes](#r5-wireframes)
+- [R6 - Project Managment](#r6-standups-and-project-managament-with-trello) 
 
 ## R1: Description of your website
 
