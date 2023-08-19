@@ -1,5 +1,7 @@
 # SupportHero
 
+![SupportHeroLogo](docs/SupportHeroLogo.png)
+
 ## R1: Description of your website
 
 ### Purpose:
@@ -28,8 +30,10 @@ Encryption: The application will use bcrypt for hashing passwords and encrypting
 
 ## R2: Dataflow Diagram
 
+![DataflowDiagram](docs/DataflowDiagram.png)
 ## R3: Application Architecture Diagram
 
+![ApplicationDiagram](docs/NoteTakingApp.jpg)
 ## R4: User Stories
 
 ## R5: Wireframes
