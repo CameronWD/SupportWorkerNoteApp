@@ -173,12 +173,27 @@ Desktop and Mobile
 
 ![WorkerList](docs/wireframes/workerslist.png)
 
-## R6: Trello Board 
+## R6: Standups and Project Managament with Trello
+### Update 1
+1. Everyone has now has tasks which they are working on. R1, R2 and R5.
+2. None yet
+3. Complete R1, R2 and R5 and complete project management board with smaller tasks for each criteria
+4. Managing different schedules can make planning/communication harder at times
 
-### Update 1 
 
 ![Update1Board](docs/TrelloImages/day1.PNG)
 
 ### Update 2
 
+1. Have added R1, R2, R4, R6.
+2. Still working on the scope of what our application does but not an issue, just something to think about.
+3. Finish Part A
+4. Learnt about how easy it is for scope to get away too quickly.
 ![Update2Board](docs/TrelloImages/day2.PNG)
+
+### Update 3 
+1. All requirments have been added and are ready to submit for assessment. 
+2. Virtual communication can be difficult at times.
+3. Next step is to plan who will be working on which part of the code. Planning deadlines and how we want to tackle it. 
+4. Learnt that its important to have backups of things incase things fail or dont update correctly. 
+![Update3Board](docs/TrelloImages/day3.png)
