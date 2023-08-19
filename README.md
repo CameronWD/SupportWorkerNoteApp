@@ -36,6 +36,149 @@ Encryption: The application will use bcrypt for hashing passwords and encrypting
 ![ApplicationDiagram](docs/NoteTakingApp.jpg)
 ## R4: User Stories
 
+- <u> User </u>: As a support worker, I want to log in to the application so that I can access and input client notes efficiently.
+
+    <u> Acceptance Criteria </u>: There should be a secure login page with appropriate authentication measures. Upon successful login, the support worker should be directed to their dashboard.
+
+
+- <u> User </u>: As a support worker, I want to select a client from my list and enter structured notes for them.
+
+    <u> Acceptance Criteria </u>: On the dashboard, there should be a clear list of clients assigned to the support worker. I can select a client from the list and be directed to a note entry form. The note entry form should have fields for essential details such as date, client's mood, challenges faced, interventions used, and future recommendations. The form should guide me through filling out the essential details.
+
+- <u> User </u>:As a support worker, I want to receive reminders to complete client notes before ending my shift.
+
+    <u> Acceptance Criteria </u>: The application should send notifications or reminders to the support worker as their shift is about to end.
+Reminders should encourage timely and consistent note-taking.
+
+- <u> User </u>:As a support worker, I want to view a chronological list of all notes for a specific client.
+
+    <u> Acceptance Criteria </u>: When I select a client, I should be able to see a history of all the notes I've entered for that client in a chronological order.
+Each note should display key details at a glance to facilitate quick understanding.
+
+
+- <u> User </u>: As a support worker, I want to easily edit or update previously entered notes.
+
+    <u> Acceptance Criteria </u>:  In the client's note history, I should have the option to edit or update any previously entered notes. Changes should be logged with a timestamp to maintain transparency and accountability.
+
+- <u> User </u>: As a team leader, I want a unified view of all client notes entered by my team for effective oversight.
+
+    <u> Acceptance Criteria </u>: Team leaders should have a separate dashboard that provides an overview of all client notes entered by their team.
+The overview should include filters to sort and search for specific clients or notes.
+
+
+- <u> User </u>: As a team leader, I want to identify inconsistencies or missing information in client notes to ensure comprehensive documentation.
+
+    <u> Acceptance Criteria </u>: The application should have a feature that analyses notes and highlights potential inconsistencies or missing details.
+This analysis should help team leaders guide support workers to improve their note-taking practices.
+
+
+- <u> User </u>:As a team leader, I want to export client notes for reporting and analysis purposes.
+
+    <u> Acceptance Criteria </u>:  There should be an option to export client notes, either individually or in bulk, in a downloadable format such as PDF or CSV.
+
+- <u> User </u>:As a support worker, I want to easily clock in and out of my shifts to accurately track my working hours.
+
+    <u> Acceptance Criteria </u>:  There should be a dedicated interface to clock in and out. Clocking in and out should record the timestamp of the action.
+
+- <u> User </u>:As a support worker, I want to receive reminders for scheduled breaks during my shift.
+
+    <u> Acceptance Criteria </u>:  The application should send timely notifications reminding me to take scheduled breaks.
+The reminders should include details about the recommended break duration.
+
+- <u> User </u>: As a support worker, I want a clear overview of my shifts for the week, including start and end times.
+
+    <u> Acceptance Criteria </u>:  There should be a weekly calendar view that displays all scheduled shifts for the support worker.
+Each shift should show the start and end times to help with planning.
+
+- <u> User </u>: As a team leader, I want to view and track the clocking compliance of my team members.
+
+    <u> Acceptance Criteria </u>:  The team leader's dashboard should provide a visual representation of each team member's clocking in and out status.
+Compliance status should be easily distinguishable (e.g., green for on time, red for late).
+
+- <u> User </u>: As a support worker, I want to receive notifications about upcoming shifts, including start times.
+
+    <u> Acceptance Criteria </u>:  The application should send reminders or notifications to support workers in advance of their upcoming shift Reminders should include the shift start time and any relevant information
+
+- <u> User </u>: As a  manager I would like to be able to assign a shift to a worker so that they can work with that Client
+
+    <u> Acceptance Criteria </u>:  There needs to be a way for managers to be able to see the list of workers, and clients and assign them to each other. So that workers are able to see the details about Clients they are working with.
+
+- <u> User </u>:As a support worker I want to be led through the note taking process so that I do not need to remember the structure or worry about missing information.
+
+    <u> Acceptance Criteria </u>:  Workers when entering progress notes should be led through the process. After choosing a shift they wish to enter notes for, they need to be presented with different text boxes to enter different information. These should not be able to be left blank, and hints should be provided to ensure that the workers knows what information needs to be entered. 
+ 
 ## R5: Wireframes
 
+### Login Screen
+
+Desktop and Mobile
+![LoginScreen](docs/wireframes/loginscreen.png)
+
+### Homepage
+
+![Homepage](docs/wireframes/homepagedraft.png)
+### Clock-in View
+
+Desktop and Mobile
+![Clockin](docs/wireframes/clockin.png)
+
+### Add Notes
+![AddNotes](!docs/../docs/wireframes/addnotes.png)
+
+### View all Clients
+![ViewAllClients](!/../docs/wireframes/allclients.png)
+
+### Calendar View
+
+![CalendarView](!/../docs/wireframes/calednarview.png)
+
+### Client Note List
+
+![ClientNoteList](!/../docs/wireframes/client%20note%20list.png)
+
+### ClientDashBoard
+
+![ClientDashboard](!/../docs/wireframes/clientdashboard.png)
+
+### Client Indvidual View
+
+![ClientIndividualView](!/../docs/wireframes/clientindividualview.png)
+
+### Client List View
+
+![ClientListViewD](docs/wireframes/clientlistdesktop.png)
+![ClientListViewM](docs/wireframes/clientmobile.png)
+![ClientListViewM2](/docs/wireframes/clientmobile2.png)
+
+### Rosters
+
+![RosterViewD](docs/wireframes/rosterview.png)
+![DesktopRosters](docs/wireframes/desktoprosters.png)
+![DesktopRosters2](docs/wireframes/desktoprosters2.png)
+
+![RosterViewM](docs/wireframes/rosterviewM.png)
+![MobileRosters](docs/wireframes/rostersm1.png)
+![MobileRosters2](docs/wireframes/rostersviewm2.png)
+
+### Note View
+
+![Notetaking1](docs/wireframes/notes1.png)
+![Notetaking2](docs/wireframes/notes2.png)
+
+### Team viewer
+
+![teamviewer](docs/wireframes/teamsview.png)
+
+### Worker List
+
+![WorkerList](docs/wireframes/workerslist.png)
+
 ## R6: Trello Board 
+
+### Update 1 
+
+![Update1Board](docs/TrelloImages/day1.PNG)
+
+### Update 2
+
+![Update2Board](docs/TrelloImages/day2.PNG)
